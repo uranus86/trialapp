@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_time: 2014-09-18 06:51:38
+  user_identify: MyString
+  val_1: 1
+  val_2: 1
+  val_3: 1
+  val_4: 1
+  val_5: 1
+  val_6: 1
+  val_7: 1
+  val_8: 1
+
+two:
+  date_time: 2014-09-18 06:51:38
+  user_identify: MyString
+  val_1: 1
+  val_2: 1
+  val_3: 1
+  val_4: 1
+  val_5: 1
+  val_6: 1
+  val_7: 1
+  val_8: 1

@@ -1,0 +1,32 @@
+<div class="container">
+<h1>List Stores</h1>
+
+<table class="table table-striped">
+	<tr>
+		<th>DateTime</th>
+		<th>User identify</th>
+		<th>Value 1</th>
+		<th>Value 2</th>
+		<th>Value 3</th>
+		<th>Value 4</th>
+		<th>Value 5</th>
+		<th>Value 6</th>
+		<th>Value 7</th>
+		<th>Value 8</th>
+	</tr>
+<% @stores.each do |store| %>
+	<tr>
+		<td><%= store.date_time.to_date %></td>
+		<td><%= store.user_identify %></td>
+		<td><%= store.val_1 %></td>
+		<td><%= store.val_2 %></td>
+		<td><%= store.val_3 %></td>
+		<td><%= store.val_4 %></td>
+		<td><%= store.val_5 %></td>
+		<td><%= store.val_6 %></td>
+		<td><%= store.val_7 %></td>
+		<td><%= store.val_8 %></td>
+	</tr>
+<% end %>
+</table>
+</div>
